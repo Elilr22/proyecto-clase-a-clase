@@ -1,6 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@600&display=swap');
 body{
     background-color: rgb(93, 93, 104);
-}
+    font-family: 'Oswald', sans-serif;
+    }
 p{
     color: red;
 }
@@ -22,4 +24,26 @@ a{
 }
 .pdiferente{
     color: green;
+}
+.encabezado{
+    background-color: bisque;
+    background-image: url(./imagenes/familia.jpg);
+    height: 30vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.menuFamilia{
+    list-style-type: none;
+    text-align: center;
+
+}
+.menuFamilia li{
+    display: inline-block;
+}
+.menuFamilia a{
+    text-decoration: none;
+    color: red;
+    font-weight: 900;
+    font-size: 2rem;
 }
